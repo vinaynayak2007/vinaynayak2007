@@ -1,0 +1,17 @@
+<svg width="495" height="218" viewBox="0 0 495 218" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Contribution Streak">
+<style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}.h{fill:#0EA5E9;font-weight:600}.m{fill:#8B949E;font-size:12px}.d{fill:#6E7681;font-size:11px}.b{fill:#C9D1D9;font-size:13.5px}.v{fill:#C9D1D9;font-size:13.5px;font-weight:700}</style>
+<rect x="0.5" y="0.5" width="494" height="217" rx="10" fill="#0D1117" stroke="#30363D"/>
+<text x="25" y="30" class="h" font-size="17">Contribution Streak</text>
+<text x="25" y="48" class="d">Updated 18 Sep 2026 · last 12 months</text>
+<line x1="165" y1="78" x2="165" y2="190" stroke="#30363D"/>
+<line x1="330" y1="78" x2="330" y2="190" stroke="#30363D"/>
+<text x="82" y="106" class="m" text-anchor="middle" font-size="11.5">Current Streak</text>
+<text x="82" y="148" font-size="36" font-weight="700" text-anchor="middle" fill="#3FB950">1</text>
+<text x="82" y="170" class="d" text-anchor="middle">days</text>
+<text x="247" y="106" class="m" text-anchor="middle" font-size="11.5">Past Year</text>
+<text x="247" y="148" font-size="36" font-weight="700" text-anchor="middle" fill="#0EA5E9">35</text>
+<text x="247" y="170" class="d" text-anchor="middle">contributions</text>
+<text x="412" y="106" class="m" text-anchor="middle" font-size="11.5">Longest Streak</text>
+<text x="412" y="148" font-size="36" font-weight="700" text-anchor="middle" fill="#3FB950">1</text>
+<text x="412" y="170" class="d" text-anchor="middle">days</text>
+</svg>
