@@ -1,0 +1,30 @@
+<svg width="495" height="218" viewBox="0 0 495 218" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Vinay N's GitHub Stats">
+<style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}.h{fill:#0EA5E9;font-weight:600}.m{fill:#8B949E;font-size:12px}.d{fill:#6E7681;font-size:11px}.b{fill:#C9D1D9;font-size:13.5px}.v{fill:#C9D1D9;font-size:13.5px;font-weight:700}</style>
+<rect x="0.5" y="0.5" width="494" height="217" rx="10" fill="#0D1117" stroke="#30363D"/>
+<text x="25" y="30" class="h" font-size="17">Vinay N's GitHub Stats</text>
+<text x="25" y="48" class="d">Updated 18 Sep 2026 · public &amp; private activity</text>
+<g transform="translate(25,66) scale(1.000)" opacity="0.95"><polygon points="7,0.6 8.9,5.0 13.6,5.4 10.0,8.3 11.2,12.8 7,10.3 2.8,12.8 4.0,8.3 0.4,5.4 5.1,5.0"/></g>
+<text x="52" y="76" class="b">Total Stars Earned</text>
+<text x="248" y="76" class="v" text-anchor="end">0</text>
+<g transform="translate(25,84) scale(1.000)" opacity="0.95"><rect x="0.7" y="0.7" width="12.6" height="12.6" rx="2" fill="none" stroke="#8B949E" stroke-width="1.5"/><line x1="4.4" y1="0.7" x2="4.4" y2="13.3" stroke="#8B949E" stroke-width="1.5"/></g>
+<text x="52" y="94" class="b">Public Repositories</text>
+<text x="248" y="94" class="v" text-anchor="end">13</text>
+<g transform="translate(25,102) scale(1.000)" opacity="0.95"><rect x="0.7" y="0.7" width="12.6" height="12.6" rx="2" fill="none" stroke="#8B949E" stroke-width="1.5"/><line x1="4.4" y1="0.7" x2="4.4" y2="13.3" stroke="#8B949E" stroke-width="1.5"/></g>
+<text x="52" y="112" class="b">Private Repositories</text>
+<text x="248" y="112" class="v" text-anchor="end">6</text>
+<g transform="translate(25,120) scale(1.000)" opacity="0.95"><circle cx="5.2" cy="4.6" r="2.7" fill="#8B949E"/><path d="M0.6 13.4c0-2.6 2.1-4.4 4.6-4.4s4.6 1.8 4.6 4.4z" fill="#8B949E"/><circle cx="11.2" cy="5.4" r="2" fill="#8B949E" opacity="0.55"/><path d="M9.4 13.4c0-2 0.8-3.5 2.2-4a3.9 3.9 0 0 1 1.8 4z" fill="#8B949E" opacity="0.55"/></g>
+<text x="52" y="130" class="b">Followers</text>
+<text x="248" y="130" class="v" text-anchor="end">6</text>
+<g transform="translate(25,138) scale(1.000)" opacity="0.95"><circle cx="7" cy="7" r="3.1" fill="none" stroke="#8B949E" stroke-width="1.5"/><line x1="0.5" y1="7" x2="3.4" y2="7" stroke="#8B949E" stroke-width="1.5"/><line x1="10.6" y1="7" x2="13.5" y2="7" stroke="#8B949E" stroke-width="1.5"/></g>
+<text x="52" y="148" class="b">Commits (12 mo)</text>
+<text x="248" y="148" class="v" text-anchor="end">23</text>
+<g transform="translate(25,156) scale(1.000)" opacity="0.95"><circle cx="4" cy="3.2" r="2.2" fill="none" stroke="#8B949E" stroke-width="1.5"/><circle cx="4" cy="11" r="2.2" fill="none" stroke="#8B949E" stroke-width="1.5"/><circle cx="10.6" cy="11" r="2.2" fill="none" stroke="#8B949E" stroke-width="1.5"/><path d="M4 5.4v3.4" stroke="#8B949E" stroke-width="1.5"/><path d="M10.6 8.8V6.2c0-1.4-1.1-2.4-2.5-2.4H6.6" fill="none" stroke="#8B949E" stroke-width="1.5"/></g>
+<text x="52" y="166" class="b">Pull Requests (12 mo)</text>
+<text x="248" y="166" class="v" text-anchor="end">0</text>
+<g transform="translate(25,174) scale(1.000)" opacity="0.95"><circle cx="7" cy="7.4" r="4.2" fill="none" stroke="#8B949E" stroke-width="1.5"/><circle cx="7" cy="7.4" r="1.5" fill="#8B949E"/><path d="M2.6 3.2 5 5.2M11.4 3.2 9 5.2M2.2 11.8 4.6 10.4M11.8 11.8 9.4 10.4" stroke="#8B949E" stroke-width="1.4"/></g>
+<text x="52" y="184" class="b">Issues Opened (12 mo)</text>
+<text x="248" y="184" class="v" text-anchor="end">0</text>
+<g transform="translate(25,192) scale(1.000)" opacity="0.95"><path d="M0.7 7S3.3 2.6 7 2.6 13.3 7 13.3 7 10.7 11.4 7 11.4 0.7 7 0.7 7z" fill="none" stroke="#8B949E" stroke-width="1.5"/><circle cx="7" cy="7" r="1.9" fill="#8B949E"/></g>
+<text x="52" y="202" class="b">Code Reviews (12 mo)</text>
+<text x="248" y="202" class="v" text-anchor="end">0</text>
+</svg>
