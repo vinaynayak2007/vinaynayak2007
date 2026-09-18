@@ -11,13 +11,13 @@
 <text x="248" y="94" class="v" text-anchor="end">13</text>
 <g transform="translate(25,102) scale(1.000)" opacity="0.95"><rect x="0.7" y="0.7" width="12.6" height="12.6" rx="2" fill="none" stroke="#8B949E" stroke-width="1.5"/><line x1="4.4" y1="0.7" x2="4.4" y2="13.3" stroke="#8B949E" stroke-width="1.5"/></g>
 <text x="52" y="112" class="b">Private Repositories</text>
-<text x="248" y="112" class="v" text-anchor="end">6</text>
+<text x="248" y="112" class="v" text-anchor="end">0</text>
 <g transform="translate(25,120) scale(1.000)" opacity="0.95"><circle cx="5.2" cy="4.6" r="2.7" fill="#8B949E"/><path d="M0.6 13.4c0-2.6 2.1-4.4 4.6-4.4s4.6 1.8 4.6 4.4z" fill="#8B949E"/><circle cx="11.2" cy="5.4" r="2" fill="#8B949E" opacity="0.55"/><path d="M9.4 13.4c0-2 0.8-3.5 2.2-4a3.9 3.9 0 0 1 1.8 4z" fill="#8B949E" opacity="0.55"/></g>
 <text x="52" y="130" class="b">Followers</text>
 <text x="248" y="130" class="v" text-anchor="end">6</text>
 <g transform="translate(25,138) scale(1.000)" opacity="0.95"><circle cx="7" cy="7" r="3.1" fill="none" stroke="#8B949E" stroke-width="1.5"/><line x1="0.5" y1="7" x2="3.4" y2="7" stroke="#8B949E" stroke-width="1.5"/><line x1="10.6" y1="7" x2="13.5" y2="7" stroke="#8B949E" stroke-width="1.5"/></g>
 <text x="52" y="148" class="b">Commits (12 mo)</text>
-<text x="248" y="148" class="v" text-anchor="end">23</text>
+<text x="248" y="148" class="v" text-anchor="end">28</text>
 <g transform="translate(25,156) scale(1.000)" opacity="0.95"><circle cx="4" cy="3.2" r="2.2" fill="none" stroke="#8B949E" stroke-width="1.5"/><circle cx="4" cy="11" r="2.2" fill="none" stroke="#8B949E" stroke-width="1.5"/><circle cx="10.6" cy="11" r="2.2" fill="none" stroke="#8B949E" stroke-width="1.5"/><path d="M4 5.4v3.4" stroke="#8B949E" stroke-width="1.5"/><path d="M10.6 8.8V6.2c0-1.4-1.1-2.4-2.5-2.4H6.6" fill="none" stroke="#8B949E" stroke-width="1.5"/></g>
 <text x="52" y="166" class="b">Pull Requests (12 mo)</text>
 <text x="248" y="166" class="v" text-anchor="end">0</text>
