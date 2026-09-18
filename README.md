@@ -100,6 +100,7 @@ Real products, live and in use:
 | Repo | Description |
 | :--- | :--- |
 | [**signature-scanner**](https://github.com/vinaynayak2007/signature-scanner) | AV-engine scanner built from scratch — hash signatures + 7 scored heuristic rules, quarantine, HTML reporting. 33 tests, zero dependencies |
+| [**pe-analyzer**](https://github.com/vinaynayak2007/pe-analyzer) | Windows PE analyser built from scratch — raw struct parsing, section entropy, import table walking, 11 scored detection rules. 44 tests, zero dependencies |
 | [**background-remover**](https://github.com/vinaynayak2007/background-remover) | Full-stack AI background removal service — Flask + rembg backend, REST API, Dockerized and deployed on Render |
 | [**alliance-pg**](https://github.com/vinaynayak2007/alliance-pg) | Case study: the accommodation platform behind alliancepg.in |
 | [**landpedia**](https://github.com/vinaynayak2007/landpedia) | Case study: digital land-record & property-rights platform |
