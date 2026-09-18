@@ -2,13 +2,14 @@ name: Refresh stats cards
 
 on:
   schedule:
-    # runs daily at 03:00 UTC — keeps the cards current automatically
+    # daily at 03:00 UTC — keeps the cards current automatically
     - cron: "0 3 * * *"
   workflow_dispatch:
   push:
     branches: [main]
     paths:
       - "stats-src/generate_stats.py"
+      - ".github/workflows/update-stats.yml"
 
 permissions:
   contents: write
@@ -20,23 +21,38 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      # The default GITHUB_TOKEN is scoped to this repo only, so the generator
+      # would see zero private repos and produce an empty languages card.
+      # Rather than commit degraded cards, skip and leave the good ones alone.
+      - name: Verify token
+        id: gate
+        env:
+          STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
+        run: |
+          if [ -z "$STATS_TOKEN" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "::warning title=STATS_TOKEN not set::Cards left unchanged. Add a fine-grained PAT as the STATS_TOKEN secret to enable auto-refresh (see stats-src/README.md)."
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Set up Python
+        if: steps.gate.outputs.skip != 'true'
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
       - name: Generate cards
+        if: steps.gate.outputs.skip != 'true'
         env:
-          # STATS_TOKEN lets the script see private repos and private
-          # contributions. Without it, the workflow falls back to the default
-          # GITHUB_TOKEN and reports public data only.
-          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN }}
           GH_USER: vinaynayak2007
           OUT_DIR: assets
           INCLUDE_PRIVATE: "1"
         run: python stats-src/generate_stats.py
 
       - name: Commit if changed
+        if: steps.gate.outputs.skip != 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
