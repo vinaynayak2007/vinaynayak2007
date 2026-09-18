@@ -3,5 +3,24 @@
 <rect x="0.5" y="0.5" width="494" height="217" rx="10" fill="#0D1117" stroke="#30363D"/>
 <text x="25" y="30" class="h" font-size="17">Most Used Languages</text>
 <text x="25" y="48" class="d">Updated 18 Sep 2026 · by bytes of code</text>
-<text x="25" y="90" class="m">No language data yet — push some code.</text>
+<text x="25" y="78" class="b">TypeScript</text>
+<text x="455" y="78" class="m" text-anchor="end">80.2%</text>
+<rect x="25" y="85" width="430" height="7" rx="3.5" fill="#30363D"/>
+<rect x="25" y="85" width="345" height="7" rx="3.5" fill="#3178C6"/>
+<text x="25" y="104" class="b">Wolfram Language</text>
+<text x="455" y="104" class="m" text-anchor="end">7.7%</text>
+<rect x="25" y="111" width="430" height="7" rx="3.5" fill="#30363D"/>
+<rect x="25" y="111" width="33" height="7" rx="3.5" fill="#8B949E"/>
+<text x="25" y="130" class="b">Python</text>
+<text x="455" y="130" class="m" text-anchor="end">6.7%</text>
+<rect x="25" y="137" width="430" height="7" rx="3.5" fill="#30363D"/>
+<rect x="25" y="137" width="28" height="7" rx="3.5" fill="#3572A5"/>
+<text x="25" y="156" class="b">C#</text>
+<text x="455" y="156" class="m" text-anchor="end">3.9%</text>
+<rect x="25" y="163" width="430" height="7" rx="3.5" fill="#30363D"/>
+<rect x="25" y="163" width="16" height="7" rx="3.5" fill="#178600"/>
+<text x="25" y="182" class="b">CSS</text>
+<text x="455" y="182" class="m" text-anchor="end">1.0%</text>
+<rect x="25" y="189" width="430" height="7" rx="3.5" fill="#30363D"/>
+<rect x="25" y="189" width="4" height="7" rx="3.5" fill="#563D7C"/>
 </svg>
