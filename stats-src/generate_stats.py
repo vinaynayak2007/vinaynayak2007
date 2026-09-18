@@ -389,12 +389,29 @@ def main():
     }
 
     os.makedirs(OUT_DIR, exist_ok=True)
+    written = 0
     for name, content in files.items():
         path = os.path.join(OUT_DIR, name)
+
+        # Safety guard: never overwrite a good card with an empty one. This
+        # happens when the token can't see the user's repos (e.g. a workflow
+        # running with the default GITHUB_TOKEN instead of a PAT).
+        if name == "langs.svg" and not langs:
+            if os.path.exists(path):
+                print(f"  ⚠ {path} — no language data; keeping existing file")
+                continue
+        if not public and not private:
+            print(f"  ⚠ no repos visible to this token; skipping all writes")
+            return
+
         with open(path, "w") as f:
             f.write(content)
         print(f"  ✓ {path} ({len(content):,} bytes)")
-    print("done.")
+        written += 1
+
+    if private == [] and INCLUDE_PRIVATE:
+        print("  ! no private repos visible — token may lack access")
+    print(f"done. {written} file(s) written.")
 
 
 if __name__ == "__main__":
